@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{76160BD1-D633-4134-9A01-F58AE50171B6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NathanFirebaseAuth/MyDashboardPage.xaml.cs">
+    <Files>
+      <File FileName="NathanFirebaseAuth/MainPage.xaml" Line="8" Column="91" />
+      <File FileName="NathanFirebaseAuth/MainPage.xaml.cs" Line="11" Column="75" />
+      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml" Line="1" Column="1" />
+      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NathanFirebaseAuth" expanded="True">
+            <Node name="NathanFirebaseAuth" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MyDashboardPage.xaml" expanded="True">
+                <Node name="MyDashboardPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NathanFirebaseAuth.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F0867D6-68E0-405C-833A-16C456B178D2" />
+  <MonoDevelop.Ide.ItemProperties.NathanFirebaseAuth.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_3_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
