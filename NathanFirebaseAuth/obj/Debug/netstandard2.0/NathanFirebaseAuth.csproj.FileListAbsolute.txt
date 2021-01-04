@@ -4,8 +4,6 @@
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/bin/Debug/netstandard2.0/NathanFirebaseAuth.pdb
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/NathanFirebaseAuth.csprojAssemblyReference.cache
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
-/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/MyDashboardPage.xaml.g.cs
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/NathanFirebaseAuth.AssemblyInfoInputs.cache
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/NathanFirebaseAuth.AssemblyInfo.cs
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth/obj/Debug/netstandard2.0/NathanFirebaseAuth.csproj.CoreCompileInputs.cache
