@@ -8,45 +8,44 @@ namespace NathanFirebaseAuth
 {
     public partial class MainPage : ContentPage
     {
-        public string WebAPIkey = "AIzaSyDuUX2cRjUinWLuqPq7cfbePTvNeREJAqM";
+        private readonly string WebAPIkey = "AIzaSyDuUX2cRjUinWLuqPq7cfbePTvNeREJAqM";
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        async void signupbutton_Clicked(System.Object sender, System.EventArgs e)
+        private async void Signupbutton_Clicked(object sender, EventArgs e)
         {
             try
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
                 var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(UserNewEmail.Text, UserNewPassword.Text);
 
-
                 string gettoken = auth.FirebaseToken;
-                await App.Current.MainPage.DisplayAlert("Alert", gettoken, "Ok");
+                await Application.Current.MainPage.DisplayAlert("Alert", gettoken, "Ok");
             }
             catch (Exception ex)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+                await Application.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
             }
 
         }
 
-        async void loginbutton_Clicked(System.Object sender, System.EventArgs e)
+        private async void Loginbutton_Clicked(object sender, EventArgs e)
         {
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
             try
             {
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(UserLoginEmail.Text, UserLoginPassword.Text);
                 var content = await auth.GetFreshAuthAsync();
-                var serializedcontnet = JsonConvert.SerializeObject(content);
-                Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
+                var serializedcontent = JsonConvert.SerializeObject(content);
+                Preferences.Set("MyFirebaseRefreshToken", serializedcontent);
                 await Navigation.PushAsync(new MyDashboardPage());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
+                await Application.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
             }
         }
     }

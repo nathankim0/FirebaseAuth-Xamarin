@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{76160BD1-D633-4134-9A01-F58AE50171B6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="NathanFirebaseAuth/MyDashboardPage.xaml.cs">
     <Files>
-      <File FileName="NathanFirebaseAuth/MainPage.xaml" Line="8" Column="91" />
-      <File FileName="NathanFirebaseAuth/MainPage.xaml.cs" Line="11" Column="75" />
-      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml" Line="1" Column="1" />
-      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml" Line="10" Column="1" />
+      <File FileName="NathanFirebaseAuth/MyDashboardPage.xaml.cs" Line="11" Column="35" />
+      <File FileName="NathanFirebaseAuth/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="NathanFirebaseAuth/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="NathanFirebaseAuth/MainPage.xaml.cs" Line="48" Column="34" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

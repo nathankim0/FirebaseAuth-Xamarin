@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
@@ -9,7 +8,7 @@ namespace NathanFirebaseAuth
 {
     public partial class MyDashboardPage : ContentPage
     {
-        public string WebAPIkey = "AIzaSyDuUX2cRjUinWLuqPq7cfbePTvNeREJAqM";
+        private readonly string WebAPIkey = "AIzaSyDuUX2cRjUinWLuqPq7cfbePTvNeREJAqM";
         public MyDashboardPage()
         {
             InitializeComponent();
@@ -17,16 +16,18 @@ namespace NathanFirebaseAuth
             GetProfileInformationAndRefreshToken();
         }
 
-        async private void GetProfileInformationAndRefreshToken()
+        private async void GetProfileInformationAndRefreshToken()
         {
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
             try
             {
-                //This is the saved firebaseauthentication that was saved during the time of login
-                var savedfirebaseauth = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("MyFirebaseRefreshToken", ""));
+                // 로그인할 때 저장했던 토큰
+                var savedfirebaseauth = JsonConvert.DeserializeObject<FirebaseAuth>(Preferences.Get("MyFirebaseRefreshToken", ""));
+
                 //Here we are Refreshing the token
                 var RefreshedContent = await authProvider.RefreshAuthAsync(savedfirebaseauth);
                 Preferences.Set("MyFirebaseRefreshToken", JsonConvert.SerializeObject(RefreshedContent));
+
                 //Now lets grab user information
                 MyUserName.Text = savedfirebaseauth.User.Email;
 
@@ -34,17 +35,14 @@ namespace NathanFirebaseAuth
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                await App.Current.MainPage.DisplayAlert("Alert", "Oh no !  Token expired", "OK");
+                await Application.Current.MainPage.DisplayAlert("Alert", "Oh no !  Token expired", "OK");
             }
-
-
-
         }
 
-        void Logout_Clicked(System.Object sender, System.EventArgs e)
+        private void Logout_Clicked(object sender, EventArgs e)
         {
             Preferences.Remove("MyFirebaseRefreshToken");
-            App.Current.MainPage = new NavigationPage(new MainPage());
+            Application.Current.MainPage = new NavigationPage(new MainPage());
 
         }
     }
