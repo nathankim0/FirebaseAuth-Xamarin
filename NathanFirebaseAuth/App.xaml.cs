@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace NathanFirebaseAuth
 {
@@ -8,7 +6,7 @@ namespace NathanFirebaseAuth
     {
         public App()
         {
-            InitializeComponent();
+            InitializeComponent();            
 
             MainPage = new NavigationPage(new LoginPage());
         }

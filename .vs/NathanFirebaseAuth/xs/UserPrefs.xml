@@ -1,13 +1,26 @@
-﻿<Properties StartupConfiguration="{76160BD1-D633-4134-9A01-F58AE50171B6}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{EA84D884-EC6D-476E-8B45-17640EAAA323}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NathanFirebaseAuth/Constants.cs">
+    <Files>
+      <File FileName="NathanFirebaseAuth/App.xaml" Line="1" Column="1" />
+      <File FileName="NathanFirebaseAuth/AmplitudeService.cs" Line="109" Column="1" />
+      <File FileName="NathanFirebaseAuth/App.xaml.cs" Line="2" Column="1" />
+      <File FileName="NathanFirebaseAuth/Constants.cs" Line="7" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NathanFirebaseAuth" expanded="True">
             <Node name="NathanFirebaseAuth" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="Constants.cs" selected="True" />
+            </Node>
+            <Node name="NathanFirebaseAuth.Android" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -15,7 +28,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.NathanFirebaseAuth.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F0867D6-68E0-405C-833A-16C456B178D2" />
-  <MonoDevelop.Ide.ItemProperties.NathanFirebaseAuth.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_3_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.NathanFirebaseAuth.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_3_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

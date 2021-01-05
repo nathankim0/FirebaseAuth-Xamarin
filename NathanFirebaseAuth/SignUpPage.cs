@@ -46,6 +46,7 @@ namespace NathanFirebaseAuth
 		{
 			try
 			{
+				
 				var authProvider = new FirebaseAuthProvider(new FirebaseConfig(Constants.WebAPIkey));
 				var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(emailEntry.Text, passwordEntry.Text);
 

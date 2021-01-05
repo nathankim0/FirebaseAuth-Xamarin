@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189947456010",
+    "project_id": "nathan-7bbe0",
+    "storage_bucket": "nathan-7bbe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189947456010:android:1fc48e954b4a41ba6c4df3",
+        "android_client_info": {
+          "package_name": "com.nathan.nathanfirebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189947456010-jughfhl17dpum9cp4o0eriqh1v62k3ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfnaJwKOhzlfTk5Cw-D2lLQI1TDUvwys8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189947456010-jughfhl17dpum9cp4o0eriqh1v62k3ba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

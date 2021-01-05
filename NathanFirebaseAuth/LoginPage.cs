@@ -51,12 +51,12 @@ namespace NathanFirebaseAuth
 			};
 		}
 
-		async void OnSignUpButtonClicked(object sender, EventArgs e)
+		private async void OnSignUpButtonClicked(object sender, EventArgs e)
 		{
 			await Navigation.PushAsync(new SignUpPage());
 		}
 
-		async void OnLoginButtonClicked(object sender, EventArgs e)
+		private async void OnLoginButtonClicked(object sender, EventArgs e)
 		{
 			var authProvider = new FirebaseAuthProvider(new FirebaseConfig(Constants.WebAPIkey));
 			try
