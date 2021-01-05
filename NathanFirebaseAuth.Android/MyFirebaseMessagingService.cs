@@ -21,6 +21,8 @@ namespace NathanFirebaseAuth.Droid
         {
 
         }
+
+        [Obsolete]
         public override void OnMessageReceived(RemoteMessage message)
         {
             base.OnMessageReceived(message);

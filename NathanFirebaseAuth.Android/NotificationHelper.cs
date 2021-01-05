@@ -10,16 +10,18 @@ namespace NathanFirebaseAuth.Droid
 {
     class NotificationHelper : Notification
     {
-        private Context mContext;
-        private NotificationManager mNotificationManager;
+        private readonly Context mContext;
+        //private NotificationManager mNotificationManager;
         private NotificationCompat.Builder mBuilder;
-        public static String NOTIFICATION_CHANNEL_ID = "10023";
+        public static string NOTIFICATION_CHANNEL_ID = "10023";
 
         public NotificationHelper()
         {
-            mContext = global::Android.App.Application.Context;
+            mContext = Android.App.Application.Context;
         }
-        public void CreateNotification(String title, String message)
+
+        [Obsolete]
+        public void CreateNotification(string title, string message)
         {
             try
             {
@@ -50,11 +52,11 @@ namespace NathanFirebaseAuth.Droid
                         .SetContentIntent(pendingIntent);
                 NotificationManager notificationManager = mContext.GetSystemService(Context.NotificationService) as NotificationManager;
 
-                if (global::Android.OS.Build.VERSION.SdkInt >= global::Android.OS.BuildVersionCodes.O)
+                if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.O)
                 {
-                    NotificationImportance importance = global::Android.App.NotificationImportance.High;
+                    NotificationImportance importance = NotificationImportance.High;
 
-                    NotificationChannel notificationChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, title, importance);
+                    var notificationChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, title, importance);
                     notificationChannel.EnableLights(true);
                     notificationChannel.EnableVibration(true);
                    // notificationChannel.SetSound(sound, alarmAttributes);
@@ -73,7 +75,7 @@ namespace NathanFirebaseAuth.Droid
             }
             catch (Exception ex)
             {
-                //
+                Console.WriteLine(ex);
             }
         }
     }
