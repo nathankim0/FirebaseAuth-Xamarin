@@ -1,4 +1,5 @@
 ﻿using System;
+using AmplitudeService;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
@@ -66,6 +67,13 @@ namespace NathanFirebaseAuth
 				var serializedcontent = JsonConvert.SerializeObject(content);
 				Preferences.Set("MyFirebaseRefreshToken", serializedcontent);
 				await Navigation.PushAsync(new DashboardPage());
+
+				Amplitude.InstanceFor(Constants.userId, Constants.userProperties).Track("login");
+
+				// texonomy 이벤트 이름 자체를 어떻게 정의
+				// 이벤트 아래에 패러미터 - 구조?
+				// 
+
 			}
 			catch (Exception)
 			{

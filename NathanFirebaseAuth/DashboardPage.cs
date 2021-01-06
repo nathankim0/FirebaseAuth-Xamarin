@@ -1,4 +1,5 @@
 ﻿using System;
+using AmplitudeService;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
@@ -62,6 +63,9 @@ namespace NathanFirebaseAuth
         private void OnLogoutButtonClicked(object sender, EventArgs e)
         {
             Preferences.Remove("MyFirebaseRefreshToken");
+
+            Amplitude.InstanceFor(Constants.userId, Constants.userProperties).Track("logout");
+
             Application.Current.MainPage = new NavigationPage(new LoginPage());
         }
     }

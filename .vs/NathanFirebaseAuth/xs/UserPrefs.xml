@@ -1,13 +1,17 @@
-﻿<Properties StartupConfiguration="{EA84D884-EC6D-476E-8B45-17640EAAA323}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NathanFirebaseAuth.Android/NotificationHelper.cs">
+﻿<Properties StartupConfiguration="{76160BD1-D633-4134-9A01-F58AE50171B6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NathanFirebaseAuth.Android/MainActivity.cs">
     <Files>
-      <File FileName="NathanFirebaseAuth/DashboardPage.cs" Line="69" Column="1" />
-      <File FileName="NathanFirebaseAuth/LoginPage.cs" Line="1" Column="1" />
-      <File FileName="NathanFirebaseAuth/SignUpPage.cs" Line="1" Column="1" />
+      <File FileName="NathanFirebaseAuth/App.xaml.cs" Line="19" Column="46" IsPinned="True" />
+      <File FileName="NathanFirebaseAuth/AmplitudeService.cs" Line="158" Column="52" IsPinned="True" />
+      <File FileName="NathanFirebaseAuth/DashboardPage.cs" Line="33" Column="29" />
+      <File FileName="NathanFirebaseAuth/LoginPage.cs" Line="71" Column="3" />
+      <File FileName="NathanFirebaseAuth/SignUpPage.cs" Line="57" Column="85" />
       <File FileName="NathanFirebaseAuth.Android/MainActivity.cs" Line="15" Column="1" />
-      <File FileName="NathanFirebaseAuth.Android/MyFirebaseIIDService.cs" Line="17" Column="46" />
+      <File FileName="NathanFirebaseAuth.Android/MyFirebaseIIDService.cs" Line="25" Column="2" />
       <File FileName="NathanFirebaseAuth.Android/MyFirebaseMessagingService.cs" Line="24" Column="1" />
       <File FileName="NathanFirebaseAuth.Android/NotificationHelper.cs" Line="34" Column="44" />
+      <File FileName="NathanFirebaseAuth/Constants.cs" Line="15" Column="9" />
+      <File FileName="NathanFirebaseAuth/App.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +24,7 @@
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="NathanFirebaseAuth.Android" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True" />
-              <Node name="NotificationHelper.cs" selected="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>

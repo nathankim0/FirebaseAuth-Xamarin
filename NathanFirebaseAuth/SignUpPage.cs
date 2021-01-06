@@ -1,4 +1,5 @@
 ﻿using System;
+using AmplitudeService;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
@@ -52,6 +53,8 @@ namespace NathanFirebaseAuth
 
 				string gettoken = auth.FirebaseToken;
 				await Application.Current.MainPage.DisplayAlert("Alert", gettoken, "Ok");
+
+				Amplitude.InstanceFor(Constants.userId, Constants.userProperties).Track("sign up");
 			}
 			catch (Exception ex)
 			{

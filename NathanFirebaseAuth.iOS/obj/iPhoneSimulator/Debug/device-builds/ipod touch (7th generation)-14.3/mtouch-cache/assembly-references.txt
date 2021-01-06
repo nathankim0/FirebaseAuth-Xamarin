@@ -38,3 +38,11 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
 /Users/jinyeob/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
+/Users/jinyeob/.nuget/packages/system.text.json/5.0.0/lib/netstandard2.0/System.Text.Json.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/Facades/System.Memory.dll
+/Users/jinyeob/.nuget/packages/system.text.encodings.web/5.0.0/lib/netstandard2.1/System.Text.Encodings.Web.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Extensions.dll
+/Users/jinyeob/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.6.0.15/lib/mono/Xamarin.iOS/Facades/System.Buffers.dll
+/Users/jinyeob/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll

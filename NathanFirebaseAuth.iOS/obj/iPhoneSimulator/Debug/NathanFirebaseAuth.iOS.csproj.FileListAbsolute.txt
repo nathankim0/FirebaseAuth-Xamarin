@@ -58,3 +58,7 @@
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/obj/iPhoneSimulator/Debug/NathanFirebaseAuth.iOS.csproj.CopyComplete
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/obj/iPhoneSimulator/Debug/NathanFirebaseAuth.iOS.exe
 /Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/obj/iPhoneSimulator/Debug/NathanFirebaseAuth.iOS.pdb
+/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/bin/iPhoneSimulator/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/bin/iPhoneSimulator/Debug/System.Text.Encodings.Web.dll
+/Users/jinyeob/Projects/NathanFirebaseAuth/NathanFirebaseAuth.iOS/bin/iPhoneSimulator/Debug/System.Text.Json.dll
